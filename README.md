@@ -1,8 +1,8 @@
-#Simple Visitor sign-up System
+# Simple Visitor sign-up System
 
 ## Non-Functional Requirements 
 
-##### Design and Tool selection analysis
+#### Design and Tool selection analysis
 Our program is a MVC(Module View Controller) based application.
 * Framework - Nodejs Express  is used for the simplicity and ease of the program.
 * Backend - For database mongodb is used, as it is easy to integrate with express framework and also serves our minimal application.
@@ -10,18 +10,18 @@ Our program is a MVC(Module View Controller) based application.
 
 ## Installation Instruction
 
-##### Technology Requirements
+#### Technology Requirements
 * [Node.js](https://nodejs.org/) 
 * [Mongodb](https://www.mongodb.com)
 * [Bootstrap](https://getbootstrap.com/)
 * [ExpressJS](https://expressjs.com/)
 * [Express Validator](https://www.npmjs.com/package/express-validator)
-* [Body-parser] (https://expressjs.com/en/resources/middleware/body-parser.html)
-* [Cookie-parser] (https://expressjs.com/en/resources/middleware/cookie-parser.html)
-* [Session] (https://www.npmjs.com/package/express-session)
-* [Passport] (https://github.com/jaredhanson/passport)
-* [Bcrypt] (https://www.npmjs.com/package/bcrypt)
-* [Flash] (https://www.npmjs.com/package/express-flash)
+* [Body-parser](https://expressjs.com/en/resources/middleware/body-parser.html)
+* [Cookie-parser](https://expressjs.com/en/resources/middleware/cookie-parser.html)
+* [Session](https://www.npmjs.com/package/express-session)
+* [Passport](https://github.com/jaredhanson/passport)
+* [Bcrypt](https://www.npmjs.com/package/bcrypt)
+* [Flash](https://www.npmjs.com/package/express-flash)
 * [Mongoose](http://mongoosejs.com/)
 
 Application is packaged with all the dependencies and it is captured in package.json, and install modules are located in **node-modules** folder.
