@@ -9,7 +9,7 @@ This application is based on MVC(Module View Controller).
 * **Usability** - Use and maintainance of Express is easy with myriad of utility methods and middleware.
 * **Backend** - For database mongodb is used, as it is easy to integrate with express framework and also serves our minimal application.
 * **Frontend** - Bootstrap is used for front-end minimalistic looks.
-* **Hands-on evaluation** - Followed a tutorial on YouTube step by step to build login page. Use of Express nodejs pretty much made easy, with all built-in functions and export qualities. Mongodb which has noSQL made a work lot easier, learnt schemas  it implements validation and other neat features in order to make sure schema is consistent when inserting/updating/finding documents from collections.   
+* **Hands-on evaluation** - Followed a tutorial on YouTube for step by step to build a login page. Use of Express framework pretty much made easy, with all built-in functions and community supports and online tutorials. Mongoose provides a straight-forward, schema-based solution to model application data. It includes built-in type casting, validation, query building, business logic hooks and more, out of the box..   
 * **Documentation** - I prefered using Markdown for documentation, because it is so intuitive, and also easy to learn. The syntax is simple and straightforward. 
 
 ## Installation Instruction
