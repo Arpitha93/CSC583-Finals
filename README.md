@@ -1,12 +1,16 @@
-# Simple Visitor sign-up System
+# Simple Visitor sign-up system
 
 ## Non-Functional Requirements 
 
 #### Design and Tool selection analysis
-Our program is a MVC(Module View Controller) based application.
-* Framework - Nodejs Express  is used for the simplicity and ease of the program.
-* Backend - For database mongodb is used, as it is easy to integrate with express framework and also serves our minimal application.
-* Frontend - Bootstrap is used for front-end minimalistic looks.
+This application is based on MVC(Module View Controller).
+* **Framework evaluation** - ExpressJS is back-end web application framework running on top of Node.js. Express is used for the simplicity and ease of the program. Many popular framework are based on express. Several popular Node.js frameworks are built on Express:MEAN, Hydra-express etc.
+* **Performance** - Express provides a thin layer of fundamental web application features, without obscuring Node.js features.
+* **Usability** - Use and maintainance of Express is easy with myriad of utility methods and middleware.
+* **Backend** - For database mongodb is used, as it is easy to integrate with express framework and also serves our minimal application.
+* **Frontend** - Bootstrap is used for front-end minimalistic looks.
+* **Hands-on evaluation** - Followed a tutorial on YouTube step by step to build login page. Use of Express nodejs pretty much made easy, with all built-in functions and export qualities. Mongodb which has noSQL made a work lot easier, learnt schemas  it implements validation and other neat features in order to make sure schema is consistent when inserting/updating/finding documents from collections.   
+* **Documentation** - I prefered using Markdown for documentation, because it is so intuitive, and also easy to learn. The syntax is simple and straightforward. 
 
 ## Installation Instruction
 
@@ -24,7 +28,7 @@ Our program is a MVC(Module View Controller) based application.
 * [Flash](https://www.npmjs.com/package/express-flash)
 * [Mongoose](http://mongoosejs.com/)
 
-Application is packaged with all the dependencies and it is captured in package.json, and install modules are located in **node-modules** folder.
+Application is packaged with all the dependencies and it is captured in package.json, and installed dependency modules are located in **node-modules** folder.
 * Download the project from Github (https://github.com/Arpitha93/CSC583-Finals)
 * Extract the contents.
 * Start the database server from command prompt or shell.
@@ -54,11 +58,11 @@ MongoDB is a cross-platform, document oriented database that provides, high perf
 ## Plan of action
 - [x] Nonfunctional analysis
 - [x] Architecture design
-- [x] registration form design
-- [x] data models design
-- [x] data addition unit test end to end 
-- [x] admin data view page design
-- [x] admin login page design
+- [x] Registration form design
+- [x] Data models design
+- [x] Data addition unit test end to end 
+- [x] Admin data view page design
+- [x] Admin login page design
 - [x] Bootstrap integration
 - [x] Admin registration page
 - [x] Admin authentication before accessing the data table
