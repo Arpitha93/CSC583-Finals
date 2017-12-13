@@ -45,15 +45,9 @@ Application is packaged with all the dependencies and it is captured in package.
 Server will be started, connect the server using http://localhost:5000 
 
 ## Architecture discussion
+The architecture of this application is as follows: The visitor stores the database in the MongoDB which will be connected to the server side, where the serve will also be running Nodejs with Express and mongoose which provides the functionality of the database at the backend api. Passport is used to validate the Admin. Coming to the frontend, CSS and bootstrap is used for style of the page.The basic function here is, when event comes in or submit is hit, a function is called that sends a request to the server’s api (such as POST or GET) the response is then stored in the Vistors module. Which is a simple three-tier architecture.
 
-### NodeJS
-Node.js is an open-source server side runtime environment. It provides an event driven, non-blocking (asynchronous) I/O and cross-platform runtime environment for building highly scalable server-side applications using JavaScript. Node.js runs in a single process and the application code runs in a single thread and thereby needs less resources than other platforms.
 
-### ExpressJS
-ExpressJS is a prebuilt NodeJS framework that can help in creating server-side web applications faster and smarter. Simplicity, minimalism, flexibility, scalability are some of its characteristics. All sorts of routing features including routing, separate handlers for put, get, post, etc..., wildcard handling, variables pulled automatically from URLs. Routing by case sensitivity or no case sensitivity 
-
-### MangoDB
-MongoDB is a cross-platform, document oriented database that provides, high performance, high availability, and easy scalability. MongoDB works on concept of collection and document. Any relational database has a typical schema design that shows number of tables and the relationship between these tables. While in MongoDB, there is no concept of relationship.
 
 ## Plan of action
 - [x] Nonfunctional analysis
