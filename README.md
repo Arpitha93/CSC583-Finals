@@ -28,15 +28,22 @@ This application is based on MVC(Module View Controller).
 * [Flash](https://www.npmjs.com/package/express-flash)
 * [Mongoose](http://mongoosejs.com/)
 
-Application is packaged with all the dependencies and it is captured in package.json, and installed dependency modules are located in **node-modules** folder.
+Application is packaged with all the dependencies and it is captured in package.json, and installed dependency modules.
 * Download the project from Github (https://github.com/Arpitha93/CSC583-Finals)
 * Extract the contents.
 * Start the database server from command prompt or shell.
-    ```sh
+	```sh
     mkdir C:/data/db
     cd mongodb_installpath/bin
     mongod
     ```
+	
+* Start the dependencies
+	```sh
+    cd extractedPath
+    npm install
+    ```
+	
 * Start the app server
     ```sh
     cd extractedPath
