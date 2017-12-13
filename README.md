@@ -52,7 +52,7 @@ Application is packaged with all the dependencies and it is captured in package.
 Server will be started, connect the server using http://localhost:5000 
 
 ## Architecture discussion
-The architecture of this application is as follows: The visitor stores the database in the MongoDB which will be connected to the server side, where the serve will also be running Nodejs with Express and mongoose which provides the functionality of the database at the backend api. Passport is used to validate the Admin. Coming to the frontend, CSS and bootstrap is used for style of the page.The basic function here is, when event comes in or submit is hit, a function is called that sends a request to the server’s api (such as POST or GET) the response is then stored in the Vistors module. Which is a simple three-tier architecture.
+The architecture of this application is as follows: The visitor stores the database in the MongoDB which will be connected to the server side, on the other hand server will also be running Nodejs with Express and mongoose which provides the functionality of the database at the backend api. Passport is used to validate the Admin. Coming to the frontend, CSS and bootstrap is used for style of the page.The basic function here is, when event comes in or submit is hit, a function is called that sends a request to the server’s api (such as POST or GET) the response is then stored in the Vistors module. Which is a simple three-tier architecture.
 
 
 
