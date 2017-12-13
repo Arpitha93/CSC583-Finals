@@ -1,0 +1,8 @@
+ <h2 class="page-header">Visitors List</h2>
+ {{#if visitors}}
+	<ul>
+		{{#each visitors}}
+			<li>Visitor Name: {{name}} Telephone: {{telephone}} Email: {{email}} Company: {{company}} </li>
+		{{/each}}
+	</ul>
+{{/if}}
